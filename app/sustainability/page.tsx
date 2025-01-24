@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const SustainabilityPage = () => {
@@ -15,6 +16,9 @@ const SustainabilityPage = () => {
             <p>
                 Crop rotation involves planting different crops sequentially on the same plot of land to improve soil health, optimize soil nutrients, and combat pest and weed pressure. For example, planting beans after corn helps replenish nitrogen in the soil. Planting the same crop every year exhausts the soil of specific nutrients and increases pest and disease pressure, leading to higher pesticide and fertilizer use. Intercropping, or growing two or more crops in close proximity, allows the crops to provide benefits for one another, using resources more efficiently and improving yield and income. Crop mixtures can lower pest densities by confusing insects and attracting helpful predators. However, intercropping requires additional management, careful timing of field operations, and special interventions to maintain the system effectively.
             </p>
+            <br />
+            <img src="/crop_rotations.png" alt="Agriculture" />
+
         </div>
     );
 };
