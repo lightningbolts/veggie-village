@@ -85,10 +85,9 @@ const MenuPage: React.FC = () => {
     return (
         <div>
             <br />
-            <h1>Menu</h1>
             {menuItems.map((category, index) => (
                 <div key={index}>
-                    <h2>{category.category}</h2>
+                    <h2><u><b>{category.category}</b></u></h2>
                     <ul>
                         {category.items.map((item, itemIndex) => (
                             <li key={itemIndex}>
