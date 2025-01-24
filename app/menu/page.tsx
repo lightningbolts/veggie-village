@@ -14,6 +14,7 @@ const MenuPage: React.FC = () => {
 
     return (
         <div>
+            <br />
             <h1>Menu</h1>
             <ul>
                 {menuItems.map((item, index) => (
