@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <img src="/salad.png" alt="Salad" />
+        <p style="background-image: url('/salad.png');">
         <br />
         <header className="px-5 py-3 bg-white shadow-sm font-work-sans">
             <nav className="flex flex-wrap gap-5 justify-between items-center self-stretch w-full text-2xl font-bold text-slate-950 max-md:max-w-full">
