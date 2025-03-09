@@ -12,7 +12,7 @@ const Navbar = () => {
                             <img src="/webmaster-logo.png" alt="Veggie Village Logo" className="h-8" />
                         </Link>
                     </div>
-                    <div className="my-auto">Veggie Village</div>
+                    <div className="my-auto">Veggie Villages</div>
                 </div>
 
                 <div className="flex items-center gap-5 text-black">
