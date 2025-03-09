@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="flex gap-2.5 self-stretch my-auto whitespace-nowrap">
                     <div className="my-auto">
                         <Link href="/">
-                            <img src="/webmaster-logo.png" alt="Veggie Village Logo" className="h-8" />
+                            <img src="/webmaster-logo.png" alt="Veggie-Village Logo" className="h-8" />
                         </Link>
                     </div>
                     <div className="my-auto">Veggie Villages</div>
