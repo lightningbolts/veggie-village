@@ -106,3 +106,13 @@ body {
   background-color: #000;
 }
 
+.main-image {
+  /* width: 60%;
+  height: 60%;
+  position: center; */
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+

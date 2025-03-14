@@ -103,7 +103,7 @@ class Circle {
     }
 }
 
-shape = new Circle(10, 1.0);
+shape = new Circle(20, 1.0);
 
 document.body.onmousemove = (e) => {
     let mouse = {

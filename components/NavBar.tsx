@@ -185,7 +185,11 @@ const Navbar = () => {
                 <img src="/webmaster-logo.png" alt="Veggie-Village Logo" className="h-8" />
               </Link>
             </div>
-            <div className="my-auto">Veggie Villages</div>
+            <a href="/">
+                <div 
+                    className="my-auto">Veggie Villages
+                </div>
+            </a>
           </div>
 
           <div className="flex items-center gap-5 text-black">
