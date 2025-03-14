@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                             <li><a href="/about-us">About Us</a></li>
                             <li><a href="/contact">Contact</a></li>
                             <li><a href="/privacy">Privacy Policy</a></li>
-                            <li><a href="/reference-page">Reference Page TSA</a></li>
+                            <li><a href="/reference-page">TSA Reference Page</a></li>
                         </ul>
                     </nav>
                 </div>
