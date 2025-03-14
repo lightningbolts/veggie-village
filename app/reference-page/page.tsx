@@ -7,7 +7,7 @@ const ReferencePage: React.FC = () => {
             <h1 className="base-header">
                 <br />
                 <li><a href="/TSARequirements/CopyrightChecklist.jpg">Copyright Checklist</a></li>
-                <li><a href="/TSARequirements/WorkLog.pdf">Work Log</a></li>
+                <li><a href="/TSARequirements/WorkLog1.pdf">Work Log</a></li>
                 <li><a href="/TSARequirements/WorksCited.txt">Works Cited</a></li>
             </h1>
             {/* <br />
