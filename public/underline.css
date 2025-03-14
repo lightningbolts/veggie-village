@@ -1,0 +1,13 @@
+.button {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  /* Add underline to the active button */
+  .button.underlined {
+    border-bottom: 2px solid rgb(0, 255, 13);
+  }

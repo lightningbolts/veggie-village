@@ -83,22 +83,24 @@ const MenuPage: React.FC = () => {
     ];
 
     return (
-        <div>
-            <br />
-            {menuItems.map((category, index) => (
-                <div key={index}>
-                    <h2><u><b>{category.category}</b></u></h2>
-                    <ul>
-                        {category.items.map((item, itemIndex) => (
-                            <li key={itemIndex}>
-                                <strong>{item.name}</strong> - {item.price}
-                                {item.description && <p>{item.description}</p>}
-                            </li>
-                        ))}
-                    </ul>
-                    {index < menuItems.length - 1 && <hr />}
-                </div>
-            ))}
+        <div className="internal-background base-text">
+            <div>
+                <br />
+                {menuItems.map((category, index) => (
+                    <div key={index}>
+                        <h2><u><b>{category.category}</b></u></h2>
+                        <ul>
+                            {category.items.map((item, itemIndex) => (
+                                <li key={itemIndex}>
+                                    <strong>{item.name}</strong> - {item.price}
+                                    {item.description && <p>{item.description}</p>}
+                                </li>
+                            ))}
+                        </ul>
+                        {index < menuItems.length - 1 && <hr />}
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

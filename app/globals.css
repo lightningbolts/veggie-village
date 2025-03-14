@@ -9,13 +9,100 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: rgb(28, 177, 28);
     --foreground: #000000;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  /* /* color: var(--foreground); */
+  /* background: var(--background);
+  font-family: Arial, Helvetica, sans-serif; */
+  background-image: url("/veggieBackground1.png");
+  background-position: center top;
+  /* background-size: 100%; */
+  background-size: cover;
+  /* background-position: center center; */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
+
+.navigation-bar {
+  /* position: absolute;
+  top: 0; */
+  width: 100%;
+  /* left: 50%;
+  position: center top;
+  transform: translateX(-50%); Centers the div horizontally */
+}
+
+.footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  /* left: 50%; */
+  /* transform: translateX(-50%); Centers the div horizontally */
+}
+
+.layout-struct {
+  width: 80%;
+  min-height: 100%; 
+  margin: 0 auto;
+}
+
+.base-text {
+  padding: '20px';
+  font-family: 'Rubik', sans-serif;
+  color: #0f0c0c;
+  text-align: center;
+}
+
+.base-header {
+  padding: '40px';
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  color: #0f0c0c;
+  text-align: center;
+}
+
+.internal-background {
+  
+  background: linear-gradient(to left, rgb(200, 255, 0, 0.8) 34%, rgb(0, 255, 76, 0.8) 65%), rgba(0, 0, 0, 0.2);
+  background-blend-mode: overlay;
+  /* background-size: 300% 100%; */
+}
+
+/*Sliding animations*/
+
+.link-effects {
+  font-size: 20px;
+  transition: font-size 0.3s ease;
+}
+
+.link-effects:hover {
+  font-size: 22px;
+}
+
+#background-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*buttons*/
+
+.underlined {
+  position: relative;
+  color: #000;
+}
+
+.underlined::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+

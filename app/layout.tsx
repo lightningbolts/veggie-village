@@ -26,13 +26,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* <script defer src= "/swup/dist/swup.min.js"></script> */}
+        <script defer src="https://unpkg.com/swup@4"></script>
+        <script defer src="/swupConfig.js"></script>
+        <link href="transition.css" rel="stylesheet"></link>
+        <script defer src="circleAnimation.js"></script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div style={{ maxWidth: "50%", margin: "0 auto" }}>
+      > 
+        {/* <div className="layout-struct"> */}
+          <canvas id="background-animation">
+            {/* <div className="layout-struct">
+              <Navbar />
+              <main id="swup" className="transition-fade">
+              {children}
+              <Footer />
+              </main>
+            </div> */}
+          </canvas>
+        {/* </div> */}
+        <div className="layout-struct">
           <Navbar />
-          {children}
-          <Footer />
+            <main id="swup" className="transition-fade">
+              {children}
+              <Footer />
+            </main>
         </div>
       </body>
     </html>

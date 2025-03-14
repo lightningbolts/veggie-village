@@ -3,7 +3,7 @@ import React from 'react';
 
 const SustainabilityPage = () => {
     return (
-        <div>
+        <div className="internal-background base-text">
             <br />
             <p>
                 Sustainable Agricultural Practices: Rotating crops and embracing diversity involves planting a variety of crops to create healthier soil and improved pest control. Techniques such as intercropping and complex multi-year crop rotations are beneficial. Planting cover crops like clover, rye, or hairy vetch in the off-season, and perennials to keep the soil covered and maintain living roots in the ground year-round, prevents erosion, replenishes soil nutrients, and keeps weeds in check, reducing the need for fertilizers and herbicides. Reducing or eliminating tillage, by planting seeds directly into undisturbed soil, can reduce erosion and improve soil health. Applying integrated pest management (IPM) uses methods like mechanical and biological controls to keep pest populations down while limiting pesticides. Integrating livestock and crops, rather than separating them, has proven to be more efficient and profitable. Adopting agroforestry practices, which include trees or shrubs in farming, provides shade and shelter to protect plants, animals, and water resources, and can offer additional income from fruits or nuts. Managing landscapes and systems by treating uncultivated or less intensively cultivated areas as integral components of the farm helps control erosion, reduces nutrient runoff, and supports pollinators and biodiversity.
